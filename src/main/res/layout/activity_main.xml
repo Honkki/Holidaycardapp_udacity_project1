@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/happyholidays"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:text="Wish you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:fontFamily="@font/cupcake"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:text="Love, Violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/cupcake"
+        />
+
+</RelativeLayout>
